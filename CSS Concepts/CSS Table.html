@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        /* This is an important step to add border to the table */
+        table,th,td{border: 1px solid black; border-collapse: collapse;}
+
+        /* All related styles commented. Remove comment and run to test them. */
+        /* th{height: 150px;} */
+        /* th{width: 100px;} */
+        /* th{background-color: lightblue;} */
+        /* th{text-align: right;width: 30%;} */
+        td{background: lightgreen; width: 30%;}
+        /* td{height: 10px;} */
+        /* td{width: 20px;} */
+        /* td{padding: 30px;} */
+        /* th{padding: 50px;} */
+
+        /* To make zebra stripes table formatting */
+        tr:nth-child(even){background: lightgreen;}
+    </style>
+
+    <title>CSS Table</title>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Sub1</th>
+                <th>Sub2</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>A</td>
+                <td>13</td>
+                <td>14</td>
+                <td>27</td>
+            </tr>
+
+            <tr>
+                <td>B</td>
+                <td>15</td>
+                <td>20</td>
+                <td>35</td>
+            </tr>
+
+            <tr>
+                <td>C</td>
+                <td>40</td>
+                <td>60</td>
+                <td>100</td>
+            </tr>
+
+            <tr>
+                <td>D</td>
+                <td>25</td>
+                <td>35</td>
+                <td>60</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
